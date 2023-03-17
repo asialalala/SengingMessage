@@ -837,12 +837,12 @@ CMakeFiles/ContinuousSubmit.dir/clean:
 CMakeFiles/SendingMessage.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SendingMessage.dir/build.make CMakeFiles/SendingMessage.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SendingMessage.dir/build.make CMakeFiles/SendingMessage.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/build/CMakeFiles --progress-num=1,2 "Built target SendingMessage"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/build/CMakeFiles --progress-num=1,2,3,4 "Built target SendingMessage"
 .PHONY : CMakeFiles/SendingMessage.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/SendingMessage.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/SendingMessage.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/build/CMakeFiles 0
 .PHONY : CMakeFiles/SendingMessage.dir/rule

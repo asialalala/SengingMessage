@@ -547,6 +547,54 @@ SendingMessage.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SendingMessage.dir/build.make CMakeFiles/SendingMessage.dir/SendingMessage.cpp.s
 .PHONY : SendingMessage.cpp.s
 
+src/QueueEmpty.o: src/QueueEmpty.cpp.o
+.PHONY : src/QueueEmpty.o
+
+# target to build an object file
+src/QueueEmpty.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SendingMessage.dir/build.make CMakeFiles/SendingMessage.dir/src/QueueEmpty.cpp.o
+.PHONY : src/QueueEmpty.cpp.o
+
+src/QueueEmpty.i: src/QueueEmpty.cpp.i
+.PHONY : src/QueueEmpty.i
+
+# target to preprocess a source file
+src/QueueEmpty.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SendingMessage.dir/build.make CMakeFiles/SendingMessage.dir/src/QueueEmpty.cpp.i
+.PHONY : src/QueueEmpty.cpp.i
+
+src/QueueEmpty.s: src/QueueEmpty.cpp.s
+.PHONY : src/QueueEmpty.s
+
+# target to generate assembly for a file
+src/QueueEmpty.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SendingMessage.dir/build.make CMakeFiles/SendingMessage.dir/src/QueueEmpty.cpp.s
+.PHONY : src/QueueEmpty.cpp.s
+
+src/RuntimeException.o: src/RuntimeException.cpp.o
+.PHONY : src/RuntimeException.o
+
+# target to build an object file
+src/RuntimeException.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SendingMessage.dir/build.make CMakeFiles/SendingMessage.dir/src/RuntimeException.cpp.o
+.PHONY : src/RuntimeException.cpp.o
+
+src/RuntimeException.i: src/RuntimeException.cpp.i
+.PHONY : src/RuntimeException.i
+
+# target to preprocess a source file
+src/RuntimeException.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SendingMessage.dir/build.make CMakeFiles/SendingMessage.dir/src/RuntimeException.cpp.i
+.PHONY : src/RuntimeException.cpp.i
+
+src/RuntimeException.s: src/RuntimeException.cpp.s
+.PHONY : src/RuntimeException.s
+
+# target to generate assembly for a file
+src/RuntimeException.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SendingMessage.dir/build.make CMakeFiles/SendingMessage.dir/src/RuntimeException.cpp.s
+.PHONY : src/RuntimeException.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -590,6 +638,12 @@ help:
 	@echo "... SendingMessage.o"
 	@echo "... SendingMessage.i"
 	@echo "... SendingMessage.s"
+	@echo "... src/QueueEmpty.o"
+	@echo "... src/QueueEmpty.i"
+	@echo "... src/QueueEmpty.s"
+	@echo "... src/RuntimeException.o"
+	@echo "... src/RuntimeException.i"
+	@echo "... src/RuntimeException.s"
 .PHONY : help
 
 
