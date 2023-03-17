@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSendingMessage.a CMakeFiles/SendingMessage.dir/SendingMessage.cpp.o
+/usr/bin/ranlib libSendingMessage.a

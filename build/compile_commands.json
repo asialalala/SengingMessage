@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/build",
+  "command": "/usr/local/bin/g++-11   -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/SendingMessage.dir/SendingMessage.cpp.o -c /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/SendingMessage.cpp",
+  "file": "/Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/SendingMessage.cpp"
+}
+]
