@@ -1,0 +1,3 @@
+/Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/tests/build/CMakeFiles/tests.dir
+/Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/tests/build/CMakeFiles/edit_cache.dir
+/Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/tests/build/CMakeFiles/rebuild_cache.dir

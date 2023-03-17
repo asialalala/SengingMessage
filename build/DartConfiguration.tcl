@@ -14,7 +14,7 @@ CostDataFile:
 Site: MacBook-Air-Joasia.local
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
-BuildName: Darwin-g++-11
+BuildName: Darwin-c++
 
 # Subprojects
 LabelsForSubprojects: 
@@ -62,8 +62,8 @@ UpdateOptions:
 UpdateType: git
 
 # Compiler info
-Compiler: /usr/local/bin/g++-11
-CompilerVersion: 11.2.0
+Compiler: /Library/Developer/CommandLineTools/usr/bin/c++
+CompilerVersion: 13.0.0.13000029
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 

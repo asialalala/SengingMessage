@@ -1,6 +1,6 @@
 CMakeFiles/SendingMessage.dir/src/RuntimeException.cpp.o: \
  /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/src/RuntimeException.cpp \
- /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/src/RuntimeException.hh \
+ /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/inc/RuntimeException.hh \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/iostream \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/x86_64-apple-darwin20/bits/c++config.h \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/x86_64-apple-darwin20/bits/os_defines.h \

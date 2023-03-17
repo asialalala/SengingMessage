@@ -1,2 +1,1 @@
-/usr/bin/ar qc libSendingMessage.a CMakeFiles/SendingMessage.dir/SendingMessage.cpp.o CMakeFiles/SendingMessage.dir/src/QueueEmpty.cpp.o CMakeFiles/SendingMessage.dir/src/RuntimeException.cpp.o
-/usr/bin/ranlib libSendingMessage.a
+/usr/local/bin/g++-11 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/SendingMessage.dir/src/main.cpp.o CMakeFiles/SendingMessage.dir/src/RuntimeException.cpp.o CMakeFiles/SendingMessage.dir/src/QueueEmpty.cpp.o -o SendingMessage 

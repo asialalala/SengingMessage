@@ -4,7 +4,7 @@
 # compile CXX with /usr/local/bin/g++-11
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/inc
 
 CXX_FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
 

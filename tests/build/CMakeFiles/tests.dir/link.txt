@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -std=c++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/tests.dir/test.cpp.o CMakeFiles/tests.dir/catch_amalgamated.cpp.o -o tests 

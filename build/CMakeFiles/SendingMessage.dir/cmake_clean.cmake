@@ -1,12 +1,12 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/SendingMessage.dir/SendingMessage.cpp.o"
-  "CMakeFiles/SendingMessage.dir/SendingMessage.cpp.o.d"
   "CMakeFiles/SendingMessage.dir/src/QueueEmpty.cpp.o"
   "CMakeFiles/SendingMessage.dir/src/QueueEmpty.cpp.o.d"
   "CMakeFiles/SendingMessage.dir/src/RuntimeException.cpp.o"
   "CMakeFiles/SendingMessage.dir/src/RuntimeException.cpp.o.d"
-  "libSendingMessage.a"
-  "libSendingMessage.pdb"
+  "CMakeFiles/SendingMessage.dir/src/main.cpp.o"
+  "CMakeFiles/SendingMessage.dir/src/main.cpp.o.d"
+  "SendingMessage"
+  "SendingMessage.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
