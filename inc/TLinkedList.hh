@@ -14,8 +14,8 @@ private:
 public:
     TLinkedList();
     ~TLinkedList();
-    bool empty();
-    const T& front();
+    bool isEmpty() const;
+    const T& front();// !!!!! throw
     void addFront(const T& e);
-    void removeFront();
+    void removeFront(); /// !!!!!! Zmień, eby zwracało wartość po usunięciu // !!!!! throw
 };

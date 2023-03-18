@@ -1,11 +1,11 @@
 #pragma once
 #include "RuntimeException.hh"
 /* 
-    Exception that queue is empty.
+    Exception that list is empty.
     I have gathered information
     about the code from "Data Structures And Algorithms in C++.
 */
-class QueueEmpty : public RuntimeException 
+class ListEmpty: public RuntimeException 
 { public:
-    QueueEmpty(const std::string& err) : RuntimeException(err) { } 
+    ListEmpty(const std::string& err) : RuntimeException(err) { } 
 };
