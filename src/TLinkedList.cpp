@@ -24,6 +24,8 @@ bool TLinkedList<T>::isEmpty() const
 template<typename T>
 const T& TLinkedList<T>::front()
 {
+    if(isEmpty)
+    throw ListEmpty("The list has no any elements.\n");
     return head->elem;
 }
 
@@ -37,9 +39,14 @@ void TLinkedList<T>::addFront(const T& e)
 }
 
 template<typename T>
-void TLinkedList<T>::removeFront()
+T TLinkedList<T>::removeFront()
 {
+     if(isEmpty)
+    throw ListEmpty("The list has no any elements.\n");
+    
     TNode<T>* old = head;
+    T temp = old.elem;
     head = old->next;
     delete old;
+    return temp;
 }

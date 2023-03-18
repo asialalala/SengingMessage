@@ -1,6 +1,9 @@
 #pragma once
 #include <iostream>
 #include "TNode.hh"
+#include "ListEmpty.hh"
+#define throw(...) // it has to be here to thro exeptions
+
 /*
     Template of single linked list.
     I have gathered information
@@ -15,7 +18,9 @@ public:
     TLinkedList();
     ~TLinkedList();
     bool isEmpty() const;
-    const T& front();// !!!!! throw
+    const T& front()
+        throw(ListEmpty);
     void addFront(const T& e);
-    void removeFront(); /// !!!!!! Zmień, eby zwracało wartość po usunięciu // !!!!! throw
+    T removeFront()
+        throw(ListEmpty); 
 };

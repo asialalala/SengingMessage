@@ -202,7 +202,10 @@ CMakeFiles/SendingMessage.dir/src/ListPriorityQueue.cpp.o: ../src/ListPriorityQu
   /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/istream \
   /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/istream.tcc \
   ../inc/TLinkedList.hh \
-  ../inc/TNode.hh
+  ../inc/TNode.hh \
+  ../inc/ListEmpty.hh \
+  ../inc/RuntimeException.hh \
+  ../inc/QueueEmpty.hh
 
 CMakeFiles/SendingMessage.dir/src/QueueEmpty.cpp.o: ../src/QueueEmpty.cpp \
   ../inc/QueueEmpty.hh \
@@ -807,7 +810,9 @@ CMakeFiles/SendingMessage.dir/src/TLinkedList.cpp.o: ../src/TLinkedList.cpp \
   /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/ostream.tcc \
   /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/istream \
   /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/istream.tcc \
-  ../inc/TNode.hh
+  ../inc/TNode.hh \
+  ../inc/ListEmpty.hh \
+  ../inc/RuntimeException.hh
 
 CMakeFiles/SendingMessage.dir/src/main.cpp.o: ../src/main.cpp \
   /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/iostream \
@@ -1409,6 +1414,8 @@ CMakeFiles/SendingMessage.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/iosfwd:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types.h:
+
+../inc/ListEmpty.hh:
 
 /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/ostream:
 

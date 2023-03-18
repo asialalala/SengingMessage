@@ -199,4 +199,6 @@ CMakeFiles/SendingMessage.dir/src/TLinkedList.cpp.o: \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/ostream.tcc \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/istream \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/istream.tcc \
- /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/inc/TNode.hh
+ /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/inc/TNode.hh \
+ /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/inc/ListEmpty.hh \
+ /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/inc/RuntimeException.hh
