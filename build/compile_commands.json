@@ -13,5 +13,15 @@
   "directory": "/Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/build",
   "command": "/usr/local/bin/g++-11  -I/Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/inc -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/SendingMessage.dir/src/QueueEmpty.cpp.o -c /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/src/QueueEmpty.cpp",
   "file": "/Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/src/QueueEmpty.cpp"
+},
+{
+  "directory": "/Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/build",
+  "command": "/usr/local/bin/g++-11  -I/Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/inc -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/SendingMessage.dir/src/ListPriorityQueue.cpp.o -c /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/src/ListPriorityQueue.cpp",
+  "file": "/Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/src/ListPriorityQueue.cpp"
+},
+{
+  "directory": "/Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/build",
+  "command": "/usr/local/bin/g++-11  -I/Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/inc -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/SendingMessage.dir/src/TLinkedList.cpp.o -c /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/src/TLinkedList.cpp",
+  "file": "/Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/src/TLinkedList.cpp"
 }
 ]

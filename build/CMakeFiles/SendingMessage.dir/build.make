@@ -111,11 +111,41 @@ CMakeFiles/SendingMessage.dir/src/QueueEmpty.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SendingMessage.dir/src/QueueEmpty.cpp.s"
 	/usr/local/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/src/QueueEmpty.cpp -o CMakeFiles/SendingMessage.dir/src/QueueEmpty.cpp.s
 
+CMakeFiles/SendingMessage.dir/src/ListPriorityQueue.cpp.o: CMakeFiles/SendingMessage.dir/flags.make
+CMakeFiles/SendingMessage.dir/src/ListPriorityQueue.cpp.o: ../src/ListPriorityQueue.cpp
+CMakeFiles/SendingMessage.dir/src/ListPriorityQueue.cpp.o: CMakeFiles/SendingMessage.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SendingMessage.dir/src/ListPriorityQueue.cpp.o"
+	/usr/local/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SendingMessage.dir/src/ListPriorityQueue.cpp.o -MF CMakeFiles/SendingMessage.dir/src/ListPriorityQueue.cpp.o.d -o CMakeFiles/SendingMessage.dir/src/ListPriorityQueue.cpp.o -c /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/src/ListPriorityQueue.cpp
+
+CMakeFiles/SendingMessage.dir/src/ListPriorityQueue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SendingMessage.dir/src/ListPriorityQueue.cpp.i"
+	/usr/local/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/src/ListPriorityQueue.cpp > CMakeFiles/SendingMessage.dir/src/ListPriorityQueue.cpp.i
+
+CMakeFiles/SendingMessage.dir/src/ListPriorityQueue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SendingMessage.dir/src/ListPriorityQueue.cpp.s"
+	/usr/local/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/src/ListPriorityQueue.cpp -o CMakeFiles/SendingMessage.dir/src/ListPriorityQueue.cpp.s
+
+CMakeFiles/SendingMessage.dir/src/TLinkedList.cpp.o: CMakeFiles/SendingMessage.dir/flags.make
+CMakeFiles/SendingMessage.dir/src/TLinkedList.cpp.o: ../src/TLinkedList.cpp
+CMakeFiles/SendingMessage.dir/src/TLinkedList.cpp.o: CMakeFiles/SendingMessage.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SendingMessage.dir/src/TLinkedList.cpp.o"
+	/usr/local/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SendingMessage.dir/src/TLinkedList.cpp.o -MF CMakeFiles/SendingMessage.dir/src/TLinkedList.cpp.o.d -o CMakeFiles/SendingMessage.dir/src/TLinkedList.cpp.o -c /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/src/TLinkedList.cpp
+
+CMakeFiles/SendingMessage.dir/src/TLinkedList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SendingMessage.dir/src/TLinkedList.cpp.i"
+	/usr/local/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/src/TLinkedList.cpp > CMakeFiles/SendingMessage.dir/src/TLinkedList.cpp.i
+
+CMakeFiles/SendingMessage.dir/src/TLinkedList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SendingMessage.dir/src/TLinkedList.cpp.s"
+	/usr/local/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/src/TLinkedList.cpp -o CMakeFiles/SendingMessage.dir/src/TLinkedList.cpp.s
+
 # Object files for target SendingMessage
 SendingMessage_OBJECTS = \
 "CMakeFiles/SendingMessage.dir/src/main.cpp.o" \
 "CMakeFiles/SendingMessage.dir/src/RuntimeException.cpp.o" \
-"CMakeFiles/SendingMessage.dir/src/QueueEmpty.cpp.o"
+"CMakeFiles/SendingMessage.dir/src/QueueEmpty.cpp.o" \
+"CMakeFiles/SendingMessage.dir/src/ListPriorityQueue.cpp.o" \
+"CMakeFiles/SendingMessage.dir/src/TLinkedList.cpp.o"
 
 # External object files for target SendingMessage
 SendingMessage_EXTERNAL_OBJECTS =
@@ -123,9 +153,11 @@ SendingMessage_EXTERNAL_OBJECTS =
 SendingMessage: CMakeFiles/SendingMessage.dir/src/main.cpp.o
 SendingMessage: CMakeFiles/SendingMessage.dir/src/RuntimeException.cpp.o
 SendingMessage: CMakeFiles/SendingMessage.dir/src/QueueEmpty.cpp.o
+SendingMessage: CMakeFiles/SendingMessage.dir/src/ListPriorityQueue.cpp.o
+SendingMessage: CMakeFiles/SendingMessage.dir/src/TLinkedList.cpp.o
 SendingMessage: CMakeFiles/SendingMessage.dir/build.make
 SendingMessage: CMakeFiles/SendingMessage.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable SendingMessage"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable SendingMessage"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SendingMessage.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
