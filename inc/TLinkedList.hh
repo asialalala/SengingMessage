@@ -4,6 +4,8 @@
 #include "ListEmpty.hh"
 #define throw(...) // it has to be here to thro exeptions
 
+// USUN GDY ZAMIENISZ NA DOUBLE LIST
+
 /*
     Template of single linked list.
     I have gathered information

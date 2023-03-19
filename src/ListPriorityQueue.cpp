@@ -10,12 +10,14 @@ bool ListPriorityQueue<E,T>::isEmpty() const
     return L.isEmpty();
 }
 
-/*template <typename E, typename T>
-void ListPriorityQueue::insert(const E& e)
+template <typename E, typename T>
+void ListPriorityQueue<E,T>::insert(const E& e)
 {
-    while (p!=L.)
+    DNode<T> * p = L.header;
+    while (p->next != L.trailer && !isLess(e,p->elem)) //dowiedz sie jak dziala isLess
     {
-    //code
+        p=p->next;
     }
+    L.add(p,e);
     
-}*/
+}

@@ -1,6 +1,6 @@
 #pragma onece
 #include <iostream>
-#include "TLinkedList.hh"
+#include "DLinkedList.hh"
 #include "QueueEmpty.hh"
 #define throw(...) // it has to be here to thro exeptions
 
@@ -13,7 +13,7 @@ template <typename E, typename T>
 class ListPriorityQueue
 {
 private:
-    TLinkedList<T> L;
+    DLinkedList<T> L;
     T isLess;
 public:
     int size() const;

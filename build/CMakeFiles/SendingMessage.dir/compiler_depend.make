@@ -201,7 +201,9 @@ CMakeFiles/SendingMessage.dir/src/DLinkedList.cpp.o: ../src/DLinkedList.cpp \
   /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/ostream.tcc \
   /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/istream \
   /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/istream.tcc \
-  ../inc/DNode.hh
+  ../inc/DNode.hh \
+  ../inc/ListEmpty.hh \
+  ../inc/RuntimeException.hh
 
 CMakeFiles/SendingMessage.dir/src/ListPriorityQueue.cpp.o: ../src/ListPriorityQueue.cpp \
   ../inc/ListPriorityQueue.hh \
@@ -403,11 +405,12 @@ CMakeFiles/SendingMessage.dir/src/ListPriorityQueue.cpp.o: ../src/ListPriorityQu
   /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/ostream.tcc \
   /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/istream \
   /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/istream.tcc \
-  ../inc/TLinkedList.hh \
-  ../inc/TNode.hh \
+  ../inc/DLinkedList.hh \
+  ../inc/DNode.hh \
   ../inc/ListEmpty.hh \
   ../inc/RuntimeException.hh \
-  ../inc/QueueEmpty.hh
+  ../inc/QueueEmpty.hh \
+  ../inc/isLess.hh
 
 CMakeFiles/SendingMessage.dir/src/QueueEmpty.cpp.o: ../src/QueueEmpty.cpp \
   ../inc/QueueEmpty.hh \
@@ -1270,6 +1273,8 @@ CMakeFiles/SendingMessage.dir/src/main.cpp.o: ../src/main.cpp \
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/i386/signal.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_id_t.h:
+
+../inc/isLess.hh:
 
 /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/locale_classes.tcc:
 
