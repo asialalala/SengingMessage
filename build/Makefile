@@ -149,6 +149,30 @@ SendingMessage/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SendingMessage.dir/build.make CMakeFiles/SendingMessage.dir/build
 .PHONY : SendingMessage/fast
 
+src/DLinkedList.o: src/DLinkedList.cpp.o
+.PHONY : src/DLinkedList.o
+
+# target to build an object file
+src/DLinkedList.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SendingMessage.dir/build.make CMakeFiles/SendingMessage.dir/src/DLinkedList.cpp.o
+.PHONY : src/DLinkedList.cpp.o
+
+src/DLinkedList.i: src/DLinkedList.cpp.i
+.PHONY : src/DLinkedList.i
+
+# target to preprocess a source file
+src/DLinkedList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SendingMessage.dir/build.make CMakeFiles/SendingMessage.dir/src/DLinkedList.cpp.i
+.PHONY : src/DLinkedList.cpp.i
+
+src/DLinkedList.s: src/DLinkedList.cpp.s
+.PHONY : src/DLinkedList.s
+
+# target to generate assembly for a file
+src/DLinkedList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SendingMessage.dir/build.make CMakeFiles/SendingMessage.dir/src/DLinkedList.cpp.s
+.PHONY : src/DLinkedList.cpp.s
+
 src/ListPriorityQueue.o: src/ListPriorityQueue.cpp.o
 .PHONY : src/ListPriorityQueue.o
 
@@ -280,6 +304,9 @@ help:
 	@echo "... package_source"
 	@echo "... rebuild_cache"
 	@echo "... SendingMessage"
+	@echo "... src/DLinkedList.o"
+	@echo "... src/DLinkedList.i"
+	@echo "... src/DLinkedList.s"
 	@echo "... src/ListPriorityQueue.o"
 	@echo "... src/ListPriorityQueue.i"
 	@echo "... src/ListPriorityQueue.s"

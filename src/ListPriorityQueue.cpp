@@ -9,3 +9,13 @@ bool ListPriorityQueue<E,T>::isEmpty() const
 {
     return L.isEmpty();
 }
+
+/*template <typename E, typename T>
+void ListPriorityQueue::insert(const E& e)
+{
+    while (p!=L.)
+    {
+    //code
+    }
+    
+}*/

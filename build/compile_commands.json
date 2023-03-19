@@ -23,5 +23,10 @@
   "directory": "/Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/build",
   "command": "/usr/local/bin/g++-11  -I/Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/inc -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/SendingMessage.dir/src/TLinkedList.cpp.o -c /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/src/TLinkedList.cpp",
   "file": "/Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/src/TLinkedList.cpp"
+},
+{
+  "directory": "/Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/build",
+  "command": "/usr/local/bin/g++-11  -I/Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/inc -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/SendingMessage.dir/src/DLinkedList.cpp.o -c /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/src/DLinkedList.cpp",
+  "file": "/Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/src/DLinkedList.cpp"
 }
 ]
