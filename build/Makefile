@@ -65,26 +65,6 @@ CMAKE_BINARY_DIR = /Users/asialalala/Programy/C++/Structures/Project1/SendingMes
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target package
-package: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	/usr/local/Cellar/cmake/3.22.3/bin/cpack --config ./CPackConfig.cmake
-.PHONY : package
-
-# Special rule for the target package
-package/fast: package
-.PHONY : package/fast
-
-# Special rule for the target package_source
-package_source:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	/usr/local/Cellar/cmake/3.22.3/bin/cpack --config ./CPackSourceConfig.cmake /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/build/CPackSourceConfig.cmake
-.PHONY : package_source
-
-# Special rule for the target package_source
-package_source/fast: package_source
-.PHONY : package_source/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
@@ -149,54 +129,6 @@ SendingMessage/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SendingMessage.dir/build.make CMakeFiles/SendingMessage.dir/build
 .PHONY : SendingMessage/fast
 
-src/DLinkedList.o: src/DLinkedList.cpp.o
-.PHONY : src/DLinkedList.o
-
-# target to build an object file
-src/DLinkedList.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SendingMessage.dir/build.make CMakeFiles/SendingMessage.dir/src/DLinkedList.cpp.o
-.PHONY : src/DLinkedList.cpp.o
-
-src/DLinkedList.i: src/DLinkedList.cpp.i
-.PHONY : src/DLinkedList.i
-
-# target to preprocess a source file
-src/DLinkedList.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SendingMessage.dir/build.make CMakeFiles/SendingMessage.dir/src/DLinkedList.cpp.i
-.PHONY : src/DLinkedList.cpp.i
-
-src/DLinkedList.s: src/DLinkedList.cpp.s
-.PHONY : src/DLinkedList.s
-
-# target to generate assembly for a file
-src/DLinkedList.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SendingMessage.dir/build.make CMakeFiles/SendingMessage.dir/src/DLinkedList.cpp.s
-.PHONY : src/DLinkedList.cpp.s
-
-src/ListPriorityQueue.o: src/ListPriorityQueue.cpp.o
-.PHONY : src/ListPriorityQueue.o
-
-# target to build an object file
-src/ListPriorityQueue.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SendingMessage.dir/build.make CMakeFiles/SendingMessage.dir/src/ListPriorityQueue.cpp.o
-.PHONY : src/ListPriorityQueue.cpp.o
-
-src/ListPriorityQueue.i: src/ListPriorityQueue.cpp.i
-.PHONY : src/ListPriorityQueue.i
-
-# target to preprocess a source file
-src/ListPriorityQueue.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SendingMessage.dir/build.make CMakeFiles/SendingMessage.dir/src/ListPriorityQueue.cpp.i
-.PHONY : src/ListPriorityQueue.cpp.i
-
-src/ListPriorityQueue.s: src/ListPriorityQueue.cpp.s
-.PHONY : src/ListPriorityQueue.s
-
-# target to generate assembly for a file
-src/ListPriorityQueue.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SendingMessage.dir/build.make CMakeFiles/SendingMessage.dir/src/ListPriorityQueue.cpp.s
-.PHONY : src/ListPriorityQueue.cpp.s
-
 src/QueueEmpty.o: src/QueueEmpty.cpp.o
 .PHONY : src/QueueEmpty.o
 
@@ -245,30 +177,6 @@ src/RuntimeException.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SendingMessage.dir/build.make CMakeFiles/SendingMessage.dir/src/RuntimeException.cpp.s
 .PHONY : src/RuntimeException.cpp.s
 
-src/TLinkedList.o: src/TLinkedList.cpp.o
-.PHONY : src/TLinkedList.o
-
-# target to build an object file
-src/TLinkedList.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SendingMessage.dir/build.make CMakeFiles/SendingMessage.dir/src/TLinkedList.cpp.o
-.PHONY : src/TLinkedList.cpp.o
-
-src/TLinkedList.i: src/TLinkedList.cpp.i
-.PHONY : src/TLinkedList.i
-
-# target to preprocess a source file
-src/TLinkedList.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SendingMessage.dir/build.make CMakeFiles/SendingMessage.dir/src/TLinkedList.cpp.i
-.PHONY : src/TLinkedList.cpp.i
-
-src/TLinkedList.s: src/TLinkedList.cpp.s
-.PHONY : src/TLinkedList.s
-
-# target to generate assembly for a file
-src/TLinkedList.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SendingMessage.dir/build.make CMakeFiles/SendingMessage.dir/src/TLinkedList.cpp.s
-.PHONY : src/TLinkedList.cpp.s
-
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -293,6 +201,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SendingMessage.dir/build.make CMakeFiles/SendingMessage.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/nowa.o: src/nowa.cpp.o
+.PHONY : src/nowa.o
+
+# target to build an object file
+src/nowa.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SendingMessage.dir/build.make CMakeFiles/SendingMessage.dir/src/nowa.cpp.o
+.PHONY : src/nowa.cpp.o
+
+src/nowa.i: src/nowa.cpp.i
+.PHONY : src/nowa.i
+
+# target to preprocess a source file
+src/nowa.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SendingMessage.dir/build.make CMakeFiles/SendingMessage.dir/src/nowa.cpp.i
+.PHONY : src/nowa.cpp.i
+
+src/nowa.s: src/nowa.cpp.s
+.PHONY : src/nowa.s
+
+# target to generate assembly for a file
+src/nowa.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SendingMessage.dir/build.make CMakeFiles/SendingMessage.dir/src/nowa.cpp.s
+.PHONY : src/nowa.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -300,28 +232,20 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
-	@echo "... package"
-	@echo "... package_source"
 	@echo "... rebuild_cache"
 	@echo "... SendingMessage"
-	@echo "... src/DLinkedList.o"
-	@echo "... src/DLinkedList.i"
-	@echo "... src/DLinkedList.s"
-	@echo "... src/ListPriorityQueue.o"
-	@echo "... src/ListPriorityQueue.i"
-	@echo "... src/ListPriorityQueue.s"
 	@echo "... src/QueueEmpty.o"
 	@echo "... src/QueueEmpty.i"
 	@echo "... src/QueueEmpty.s"
 	@echo "... src/RuntimeException.o"
 	@echo "... src/RuntimeException.i"
 	@echo "... src/RuntimeException.s"
-	@echo "... src/TLinkedList.o"
-	@echo "... src/TLinkedList.i"
-	@echo "... src/TLinkedList.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/nowa.o"
+	@echo "... src/nowa.i"
+	@echo "... src/nowa.s"
 .PHONY : help
 
 

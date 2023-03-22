@@ -1,5 +1,3 @@
 /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/build/CMakeFiles/SendingMessage.dir
-/Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/build/CMakeFiles/package.dir
-/Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/build/CMakeFiles/package_source.dir
 /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/build/CMakeFiles/edit_cache.dir
 /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/build/CMakeFiles/rebuild_cache.dir

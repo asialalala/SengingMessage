@@ -1,19 +1,10 @@
 #pragma once
 
+template<typename T>
 class nowa
 {
 private:
     /* data */
 public:
-    nowa(/* args */);
-    ~nowa();
-    int getone() {return 1;}
+    T getone(T a);
 };
-
-nowa::nowa(/* args */)
-{
-}
-
-nowa::~nowa()
-{
-}

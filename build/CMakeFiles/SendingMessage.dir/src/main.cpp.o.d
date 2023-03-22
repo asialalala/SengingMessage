@@ -197,4 +197,13 @@ CMakeFiles/SendingMessage.dir/src/main.cpp.o: \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/basic_ios.tcc \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/ostream.tcc \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/istream \
- /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/istream.tcc
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/istream.tcc \
+ /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/inc/ListPriorityQueue.hh \
+ /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/inc/DLinkedList.hh \
+ /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/inc/DNode.hh \
+ /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/inc/ListEmpty.hh \
+ /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/inc/RuntimeException.hh \
+ /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/inc/QueueEmpty.hh \
+ /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/inc/TNode.hh \
+ /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/inc/nowa.hh \
+ /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/inc/TLinkedList.hh
