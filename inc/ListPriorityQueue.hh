@@ -11,13 +11,13 @@
 */
 template <typename E, typename T>
 class ListPriorityQueue
+    : public DLinkedList<T>
 {
 private:
     DLinkedList<T> L;
-    T isLess;
 public:
     int size() const;
-    bool isEmpty() const;
+    bool isEmpty();
     const E& min() const
         throw(QueueEmpty);
     void insert(const E& e);
@@ -32,7 +32,7 @@ int ListPriorityQueue<E,T>::size() const
 {return L.size();}
 
 template <typename E, typename T>
-bool ListPriorityQueue<E,T>::isEmpty() const
+bool ListPriorityQueue<E,T>::isEmpty() 
 {
     return L.isEmpty();
 }
@@ -40,11 +40,16 @@ bool ListPriorityQueue<E,T>::isEmpty() const
 template <typename E, typename T>
 void ListPriorityQueue<E,T>::insert(const E& e)
 {
+    std::cout << "przed utworzeniem zmiennek";
+    int i =1;
     DNode<T> * p = L.header;
-    while (p->next != L.trailer && !isLess(e,p->elem)) //dowiedz sie jak dziala isLess
+    while (p->next != L.trailer && (e <= p->elem)) 
     {
+        std::cout << i;
         p=p->next;
+        ++i;
     }
-    L.add(p,e);
+    std::cout << "koniec petli";
+    L.add(p->next,e);
     
 }

@@ -12,8 +12,9 @@
 
 template <typename T>
 class DLinkedList
+    : public DNode<T>
 {
-private:
+public: //nie potrafie tego zmienic na protected, nie działa:(
    DNode<T> * header;
    DNode<T> * trailer;
 
@@ -32,9 +33,11 @@ public:
         throw(ListEmpty);
     bool isEmpty();
 
-protected:
+public:
     void add(DNode<T> * v, const T & e);
     void remove(DNode<T> * v);
+
+    
 };
 
 
@@ -91,7 +94,9 @@ void DLinkedList<T>::add(DNode<T> * v, const T & e)
     u->elem = e;
     u->next = v;
     u->prev = v->prev;
-    v->prev->next = v->prev = u;
+    v->prev->next = u;
+    v->prev = u;
+    std::cout << header->next->elem; 
 }
 
 template <typename T>

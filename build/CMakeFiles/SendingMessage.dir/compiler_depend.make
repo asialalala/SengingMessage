@@ -609,9 +609,7 @@ CMakeFiles/SendingMessage.dir/src/main.cpp.o: ../src/main.cpp \
   ../inc/ListEmpty.hh \
   ../inc/RuntimeException.hh \
   ../inc/QueueEmpty.hh \
-  ../inc/TNode.hh \
-  ../inc/nowa.hh \
-  ../inc/TLinkedList.hh
+  ../inc/nowa.hh
 
 CMakeFiles/SendingMessage.dir/src/nowa.cpp.o: ../src/nowa.cpp \
   ../inc/nowa.hh
@@ -793,8 +791,6 @@ CMakeFiles/SendingMessage.dir/src/nowa.cpp.o: ../src/nowa.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_mbstate_t.h:
 
-../inc/TNode.hh:
-
 /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/ext/numeric_traits.h:
 
 /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/stl_iterator_base_funcs.h:
@@ -872,8 +868,6 @@ CMakeFiles/SendingMessage.dir/src/nowa.cpp.o: ../src/nowa.cpp \
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/Availability.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/sched.h:
-
-../inc/TLinkedList.hh:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint8_t.h:
 

@@ -4,9 +4,20 @@
 TEST_CASE("ListPriorityQueue", "[ListPriorityQueue]")
 {
     ListPriorityQueue<int, int> n;
-    SECTION("czy pusta")
+   
+    SECTION("is a list emtpy?")
     {
-        REQUIRE(n.isEmpty() == 0);
+        REQUIRE(n.isEmpty() == true);
+    }
+
+   // SECTION("is 5 added ?")
+    //{
+     //   REQUIRE(n.min() == 5);
+   // }
+
+    SECTION("is not it empty?")
+    {
+        REQUIRE(n.isEmpty() == false);
     }
 }
 
