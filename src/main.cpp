@@ -9,7 +9,6 @@ int main(){
     ListPriorityQueue<int,int> a;
    
    a.insert(2);
-   std::cout << a.min();
+   a.min();
  
-
 }

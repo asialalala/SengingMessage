@@ -27,11 +27,11 @@ public:
         throw(ListEmpty);
     void removeBack()
         throw(ListEmpty);
-    const T & front()
+    const T & front() const
         throw(ListEmpty);
-    const T & back()
+    const T & back() const
         throw(ListEmpty);
-    bool isEmpty();
+    bool isEmpty() const;
 
 public:
     void add(DNode<T> * v, const T & e);
@@ -64,25 +64,25 @@ DLinkedList<T>::~DLinkedList()
 }
 
 template <typename T>
-bool DLinkedList<T>::isEmpty()
+bool DLinkedList<T>::isEmpty() const
 {
     return header->next == trailer;
 }
 
 template <typename T>
-const T & DLinkedList<T>::front()
+const T & DLinkedList<T>::front() const
 {
     if(isEmpty())
-    throw ListEmpty("The list has no any elements.\n");
+        throw ListEmpty("The list has no any elements.\n");
 
     return header->next->elem;
 }
 
 template <typename T>
-const T & DLinkedList<T>::back()
+const T & DLinkedList<T>::back() const
 {
     if(isEmpty())
-    throw ListEmpty("The list has no any elements.\n");
+        throw ListEmpty("The list has no any elements.\n");
 
     return trailer->prev->elem;
 }

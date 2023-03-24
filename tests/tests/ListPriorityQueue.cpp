@@ -10,10 +10,11 @@ TEST_CASE("ListPriorityQueue", "[ListPriorityQueue]")
         REQUIRE(n.isEmpty() == true);
     }
 
-   // SECTION("is 5 added ?")
-    //{
-     //   REQUIRE(n.min() == 5);
-   // }
+    n.insert(5);
+    SECTION("is 5 added ?")
+    {
+        REQUIRE(n.min() == 5);
+    }
 
     SECTION("is not it empty?")
     {

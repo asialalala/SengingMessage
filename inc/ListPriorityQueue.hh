@@ -18,7 +18,7 @@ private:
 public:
     int size() const;
     bool isEmpty();
-    const E& min() const
+    const T& min() const
         throw(QueueEmpty);
     void insert(const E& e);
     E removeMin()
@@ -40,16 +40,21 @@ bool ListPriorityQueue<E,T>::isEmpty()
 template <typename E, typename T>
 void ListPriorityQueue<E,T>::insert(const E& e)
 {
-    std::cout << "przed utworzeniem zmiennek";
-    int i =1;
     DNode<T> * p = L.header;
     while (p->next != L.trailer && (e <= p->elem)) 
     {
-        std::cout << i;
+
         p=p->next;
-        ++i;
     }
-    std::cout << "koniec petli";
     L.add(p->next,e);
     
+}
+
+template <typename E, typename T>
+const T&  ListPriorityQueue<E,T>::min() const 
+{
+    if(L.isEmpty())
+        throw QueueEmpty("The queue has no any elements.\n");
+
+    return L.front();
 }
