@@ -41,13 +41,21 @@ template <typename E, typename T>
 void ListPriorityQueue<E,T>::insert(const E& e)
 {
     DNode<T> * p = L.header;
-    while (p->next != L.trailer && (e <= p->elem)) 
-    {
-
-        p=p->next;
-    }
+   // std::cout << "dodawany" << e << "\n";
+   // std::cout << "przed" << L.header->next->elem << "\n";
+    //if(e <= L.header->next->elem){
+      // std::cout << "if";
+       // L.addFront(e);
+    //}else{
+      //  std::cout << "else";
+        while (p->next != L.trailer && (e >= p->next->elem)) 
+        {
+            p=p->next;
+        }
+    //std::cout << "ListPriority\n"; 
+    //std::cout << "przed" << p->next->elem << "\n" ;
     L.add(p->next,e);
-    
+    //}
 }
 
 template <typename E, typename T>

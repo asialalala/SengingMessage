@@ -96,7 +96,6 @@ void DLinkedList<T>::add(DNode<T> * v, const T & e)
     u->prev = v->prev;
     v->prev->next = u;
     v->prev = u;
-    std::cout << header->next->elem; 
 }
 
 template <typename T>

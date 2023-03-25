@@ -9,6 +9,7 @@ int main(){
     ListPriorityQueue<int,int> a;
    
    a.insert(2);
-   a.min();
+   std::cout << "\n\n\n Dodawanie drugie \n\n\n";
+   a.addFront(1);
  
 }
