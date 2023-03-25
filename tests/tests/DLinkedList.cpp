@@ -16,7 +16,7 @@ TEST_CASE("DLinkedList", "[DLinkedList]")
     n.addFront(4);
     n.addFront(3);
     n.addFront(2);
-    SECTION("is 4 in front")
+    SECTION("mony item added")
     {
         REQUIRE(n.front() == 2);
     }
@@ -24,9 +24,16 @@ TEST_CASE("DLinkedList", "[DLinkedList]")
     {
         REQUIRE(n.front() == 2);
     }
-    n.add(n.header->next,10);
+    n.add(n.header->next,10); //addFront
      {
         REQUIRE(n.front() == 10);
+    }
+
+    
+    SECTION("removing")
+    {
+        REQUIRE(n.removeFront() == 10);
+        REQUIRE(n.front() == 2);
     }
 }
 

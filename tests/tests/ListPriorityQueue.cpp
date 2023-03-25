@@ -35,6 +35,13 @@ TEST_CASE("ListPriorityQueue", "[ListPriorityQueue]")
     {
         REQUIRE(n.isEmpty() == false);
     } 
+
+    SECTION("removing")
+    {
+        REQUIRE(n.removeMin() == 2);
+        REQUIRE(n.min() == 5);
+    }
+
 }
 
 // tak kompiluj g++ ListPriorityQueue.cpp ../catch_amalgamated.cpp
