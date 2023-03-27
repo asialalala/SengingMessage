@@ -129,6 +129,30 @@ SendingMessage/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SendingMessage.dir/build.make CMakeFiles/SendingMessage.dir/build
 .PHONY : SendingMessage/fast
 
+src/Elem.o: src/Elem.cpp.o
+.PHONY : src/Elem.o
+
+# target to build an object file
+src/Elem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SendingMessage.dir/build.make CMakeFiles/SendingMessage.dir/src/Elem.cpp.o
+.PHONY : src/Elem.cpp.o
+
+src/Elem.i: src/Elem.cpp.i
+.PHONY : src/Elem.i
+
+# target to preprocess a source file
+src/Elem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SendingMessage.dir/build.make CMakeFiles/SendingMessage.dir/src/Elem.cpp.i
+.PHONY : src/Elem.cpp.i
+
+src/Elem.s: src/Elem.cpp.s
+.PHONY : src/Elem.s
+
+# target to generate assembly for a file
+src/Elem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SendingMessage.dir/build.make CMakeFiles/SendingMessage.dir/src/Elem.cpp.s
+.PHONY : src/Elem.cpp.s
+
 src/QueueEmpty.o: src/QueueEmpty.cpp.o
 .PHONY : src/QueueEmpty.o
 
@@ -234,6 +258,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... SendingMessage"
+	@echo "... src/Elem.o"
+	@echo "... src/Elem.i"
+	@echo "... src/Elem.s"
 	@echo "... src/QueueEmpty.o"
 	@echo "... src/QueueEmpty.i"
 	@echo "... src/QueueEmpty.s"

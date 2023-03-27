@@ -2,14 +2,26 @@
 #include "ListPriorityQueue.hh"
 #include "DLinkedList.hh"
 #include "DNode.hh"
-#include "nowa.hh"
+#include "Elem.hh"
 
 int main(){
     std::cout << "Początek programu!!\n";
-    ListPriorityQueue<int,int> a;
-   
-   a.insert(2);
-   std::cout << "\n\n\n Dodawanie drugie \n\n\n";
-   a.addFront(1);
+    Elem a(1,"Witam");
+    Elem b(2, "serdecznie");
+    Elem c(3, "w");
+    Elem d(4, "programie!");
+
+    ListPriorityQueue<Elem> list;
+    list.insert(c);
+    list.insert(b);
+    list.insert(d);
+    list.insert(a);
+
+     std::string info;
+    for(int i=0;i<4;i++) {
+        info = list.removeMin().getWord();
+        std::cout << info;
+       }
+
  
 }

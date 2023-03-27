@@ -9,9 +9,9 @@
     I have gathered information
     about the code from "Data Structures And Algorithms in C++."
 */
-template <typename E, typename T>
+template <typename T>
 class ListPriorityQueue
-    : public DLinkedList<T>
+   // : public DLinkedList<T>
 {
 private:
     DLinkedList<T> L;
@@ -20,49 +20,52 @@ public:
     bool isEmpty();
     const T& min() const
         throw(QueueEmpty);
-    void insert(const E& e);
-    E removeMin()
+    void insert(const T& e);
+    T removeMin()
         throw(QueueEmpty); 
 };
 
 /*        METHODS          */
 
-template <typename E, typename T>
-int ListPriorityQueue<E,T>::size() const
+template <typename T>
+int ListPriorityQueue<T>::size() const
 {return L.size();}
 
-template <typename E, typename T>
-bool ListPriorityQueue<E,T>::isEmpty() 
+template <typename T>
+bool ListPriorityQueue<T>::isEmpty() 
 {
     return L.isEmpty();
 }
 
-template <typename E, typename T>
-void ListPriorityQueue<E,T>::insert(const E& e)
+template <typename T>
+void ListPriorityQueue<T>::insert(const T& e)
 {
     DNode<T> * p = L.header;
-   // std::cout << "dodawany" << e << "\n";
-   // std::cout << "przed" << L.header->next->elem << "\n";
-    //if(e <= L.header->next->elem){
-      // std::cout << "if";
-       // L.addFront(e);
-    //}else{
-      //  std::cout << "else";
-        while (p->next != L.trailer && (e >= p->next->elem)) 
-        {
-            p=p->next;
-        }
-    //std::cout << "ListPriority\n"; 
-    //std::cout << "przed" << p->next->elem << "\n" ;
+    while (p->next != L.trailer && (e >= p->next->elem)) 
+    {
+        p=p->next;
+    }
     L.add(p->next,e);
-    //}
+
 }
 
-template <typename E, typename T>
-const T&  ListPriorityQueue<E,T>::min() const 
+template <typename T>
+const T&  ListPriorityQueue<T>::min() const 
 {
     if(L.isEmpty())
         throw QueueEmpty("The queue has no any elements.\n");
 
     return L.front();
+}
+
+template <typename T>
+T ListPriorityQueue<T>::removeMin()
+{
+    if(L.isEmpty())
+        throw QueueEmpty("The queue has no any elements.\n");
+    
+    T t = min();
+    L.removeFront();
+
+    return t;
 }

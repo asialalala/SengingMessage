@@ -3,7 +3,7 @@
 
 TEST_CASE("ListPriorityQueue", "[ListPriorityQueue]")
 {
-    ListPriorityQueue<int, int> n;
+    ListPriorityQueue<int> n;
    
     SECTION("is a list emtpy?")
     {

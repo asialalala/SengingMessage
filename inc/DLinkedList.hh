@@ -23,9 +23,9 @@ public:
     ~DLinkedList();
     void addFront(const T & e);
     void addBack(const T & e);
-    void removeFront()
+    T  removeFront()
         throw(ListEmpty);
-    void removeBack()
+    T  removeBack()
         throw(ListEmpty);
     const T & front() const
         throw(ListEmpty);
@@ -35,7 +35,7 @@ public:
 
 public:
     void add(DNode<T> * v, const T & e);
-    void remove(DNode<T> * v);
+    T  remove(DNode<T> * v);
 
     
 };
@@ -111,32 +111,38 @@ void DLinkedList<T>::addBack(const T & e)
 }
 
 template <typename T>
-void DLinkedList<T>::remove(DNode<T> * v)
+T DLinkedList<T>::remove(DNode<T> * v)
 {
     if(isEmpty())
     throw ListEmpty("The list has no any elements.\n");
 
+    T t = v->prev->elem;
     DNode<T> * u = v->prev;
     DNode<T> * w = v->next;
     u->next = w;
     w->prev = u;
     delete v;
+    return t;
 }
 
 template <typename T>
-void DLinkedList<T>::removeFront()
+T DLinkedList<T>::removeFront()
 {
     if(isEmpty())
     throw ListEmpty("The list has no any elements.\n");
 
+    T t = header->next->elem; 
     remove(header->next);
+    return t;
 }
 
 template <typename T>
-void DLinkedList<T>::removeBack()
+T DLinkedList<T>::removeBack()
 {
     if(isEmpty())
     throw ListEmpty("The list has no any elements.\n");
     
+    T t = trailer->prev->elem; 
     remove(trailer->prev);
+    return t;
 }

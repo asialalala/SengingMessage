@@ -18,5 +18,10 @@
   "directory": "/Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/build",
   "command": "/usr/local/bin/g++-11  -I/Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/inc -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/SendingMessage.dir/src/nowa.cpp.o -c /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/src/nowa.cpp",
   "file": "/Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/src/nowa.cpp"
+},
+{
+  "directory": "/Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/build",
+  "command": "/usr/local/bin/g++-11  -I/Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/inc -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/SendingMessage.dir/src/Elem.cpp.o -c /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/src/Elem.cpp",
+  "file": "/Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/src/Elem.cpp"
 }
 ]

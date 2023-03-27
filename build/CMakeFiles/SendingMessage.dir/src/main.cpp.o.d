@@ -204,4 +204,4 @@ CMakeFiles/SendingMessage.dir/src/main.cpp.o: \
  /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/inc/ListEmpty.hh \
  /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/inc/RuntimeException.hh \
  /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/inc/QueueEmpty.hh \
- /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/inc/nowa.hh
+ /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/inc/Elem.hh
