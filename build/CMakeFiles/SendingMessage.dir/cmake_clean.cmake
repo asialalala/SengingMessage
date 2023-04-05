@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/SendingMessage.dir/src/Elem.cpp.o"
   "CMakeFiles/SendingMessage.dir/src/Elem.cpp.o.d"
+  "CMakeFiles/SendingMessage.dir/src/Message.cpp.o"
+  "CMakeFiles/SendingMessage.dir/src/Message.cpp.o.d"
   "CMakeFiles/SendingMessage.dir/src/QueueEmpty.cpp.o"
   "CMakeFiles/SendingMessage.dir/src/QueueEmpty.cpp.o.d"
   "CMakeFiles/SendingMessage.dir/src/RuntimeException.cpp.o"

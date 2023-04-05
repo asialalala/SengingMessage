@@ -22,10 +22,11 @@ bool Elem::operator >= ( const Elem & v ) const
 
 Elem::Elem()
 {
-
+      key = 0;
+      word = ' ';
 }
 
-Elem::Elem(int k, std::string w)
+Elem::Elem(int k, std::string w) 
 {
     key = k;
     word = w;
@@ -35,5 +36,5 @@ Elem::~Elem()
 {
 }
 
-std::string Elem::getWord()
+std::string Elem::getWord() const
 {return word;}

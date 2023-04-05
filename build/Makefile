@@ -153,6 +153,30 @@ src/Elem.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SendingMessage.dir/build.make CMakeFiles/SendingMessage.dir/src/Elem.cpp.s
 .PHONY : src/Elem.cpp.s
 
+src/Message.o: src/Message.cpp.o
+.PHONY : src/Message.o
+
+# target to build an object file
+src/Message.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SendingMessage.dir/build.make CMakeFiles/SendingMessage.dir/src/Message.cpp.o
+.PHONY : src/Message.cpp.o
+
+src/Message.i: src/Message.cpp.i
+.PHONY : src/Message.i
+
+# target to preprocess a source file
+src/Message.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SendingMessage.dir/build.make CMakeFiles/SendingMessage.dir/src/Message.cpp.i
+.PHONY : src/Message.cpp.i
+
+src/Message.s: src/Message.cpp.s
+.PHONY : src/Message.s
+
+# target to generate assembly for a file
+src/Message.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SendingMessage.dir/build.make CMakeFiles/SendingMessage.dir/src/Message.cpp.s
+.PHONY : src/Message.cpp.s
+
 src/QueueEmpty.o: src/QueueEmpty.cpp.o
 .PHONY : src/QueueEmpty.o
 
@@ -261,6 +285,9 @@ help:
 	@echo "... src/Elem.o"
 	@echo "... src/Elem.i"
 	@echo "... src/Elem.s"
+	@echo "... src/Message.o"
+	@echo "... src/Message.i"
+	@echo "... src/Message.s"
 	@echo "... src/QueueEmpty.o"
 	@echo "... src/QueueEmpty.i"
 	@echo "... src/QueueEmpty.s"

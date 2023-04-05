@@ -1,5 +1,5 @@
-CMakeFiles/SendingMessage.dir/src/main.cpp.o: \
- /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/src/main.cpp \
+CMakeFiles/SendingMessage.dir/src/ReadingFromFile.cpp.o: \
+ /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/src/ReadingFromFile.cpp \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/iostream \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/x86_64-apple-darwin20/bits/c++config.h \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/x86_64-apple-darwin20/bits/os_defines.h \
@@ -198,14 +198,10 @@ CMakeFiles/SendingMessage.dir/src/main.cpp.o: \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/ostream.tcc \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/istream \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/istream.tcc \
- /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/inc/ListPriorityQueue.hh \
  /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/inc/DLinkedList.hh \
  /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/inc/DNode.hh \
  /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/inc/ListEmpty.hh \
  /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/inc/RuntimeException.hh \
- /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/inc/QueueEmpty.hh \
- /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/inc/Elem.hh \
- /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/inc/Message.hh \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/fstream \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/codecvt.h \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/x86_64-apple-darwin20/bits/basic_file.h \

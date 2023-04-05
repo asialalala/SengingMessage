@@ -12,5 +12,6 @@ public:
     ~Elem();
     bool operator <= ( const Elem & v ) const;
     bool operator >= ( const Elem & v ) const;
-    std::string getWord();
+    std::string getWord() const;
+    int getKey() const {return key;}
 };

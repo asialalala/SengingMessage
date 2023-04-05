@@ -51,7 +51,6 @@ DLinkedList<T>::DLinkedList()
     trailer = new DNode<T>;
     header->next = trailer;
     trailer->prev = header;
-
 }
 
 template <typename T>
