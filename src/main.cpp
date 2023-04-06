@@ -33,6 +33,10 @@ int main(){
     Message Text;
 
     
+    
+    Text.write();
+    Text.sent();
     Text.read();
+    
     
 }
