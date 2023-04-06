@@ -210,4 +210,20 @@ CMakeFiles/SendingMessage.dir/src/main.cpp.o: \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/codecvt.h \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/x86_64-apple-darwin20/bits/basic_file.h \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/x86_64-apple-darwin20/bits/c++io.h \
- /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/fstream.tcc
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/fstream.tcc \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/chrono \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/ratio \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/limits \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/ctime \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/parse_numbers.h \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/thread \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/std_thread.h \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/tuple \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/utility \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/stl_relops.h \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/array \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/uses_allocator.h \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/invoke.h \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/refwrap.h \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/unique_ptr.h \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/this_thread_sleep.h

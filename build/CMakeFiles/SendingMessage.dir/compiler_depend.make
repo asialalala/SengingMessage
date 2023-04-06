@@ -411,7 +411,9 @@ CMakeFiles/SendingMessage.dir/src/Message.cpp.o: ../src/Message.cpp \
   /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/codecvt.h \
   /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/x86_64-apple-darwin20/bits/basic_file.h \
   /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/x86_64-apple-darwin20/bits/c++io.h \
-  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/fstream.tcc
+  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/fstream.tcc \
+  ../inc/ListPriorityQueue.hh \
+  ../inc/QueueEmpty.hh
 
 CMakeFiles/SendingMessage.dir/src/QueueEmpty.cpp.o: ../src/QueueEmpty.cpp \
   ../inc/QueueEmpty.hh \
@@ -1027,13 +1029,39 @@ CMakeFiles/SendingMessage.dir/src/main.cpp.o: ../src/main.cpp \
   /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/codecvt.h \
   /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/x86_64-apple-darwin20/bits/basic_file.h \
   /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/x86_64-apple-darwin20/bits/c++io.h \
-  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/fstream.tcc
+  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/fstream.tcc \
+  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/chrono \
+  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/ratio \
+  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/limits \
+  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/ctime \
+  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/parse_numbers.h \
+  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/thread \
+  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/std_thread.h \
+  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/tuple \
+  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/utility \
+  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/stl_relops.h \
+  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/array \
+  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/uses_allocator.h \
+  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/invoke.h \
+  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/refwrap.h \
+  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/unique_ptr.h \
+  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/this_thread_sleep.h
 
 CMakeFiles/SendingMessage.dir/src/nowa.cpp.o: ../src/nowa.cpp \
   ../inc/nowa.hh
 
 
 ../src/nowa.cpp:
+
+/usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/this_thread_sleep.h:
+
+/usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/refwrap.h:
+
+/usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/invoke.h:
+
+/usr/local/Cellar/gcc/11.2.0_3/include/c++/11/thread:
+
+/usr/local/Cellar/gcc/11.2.0_3/include/c++/11/ratio:
 
 ../inc/ListPriorityQueue.hh:
 
@@ -1141,6 +1169,8 @@ CMakeFiles/SendingMessage.dir/src/nowa.cpp.o: ../src/nowa.cpp \
 
 /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/x86_64-apple-darwin20/bits/ctype_base.h:
 
+/usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/std_thread.h:
+
 /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/streambuf:
 
 /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/functional_hash.h:
@@ -1209,6 +1239,8 @@ CMakeFiles/SendingMessage.dir/src/nowa.cpp.o: ../src/nowa.cpp \
 
 /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/localefwd.h:
 
+/usr/local/Cellar/gcc/11.2.0_3/include/c++/11/tuple:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_intmax_t.h:
@@ -1231,6 +1263,8 @@ CMakeFiles/SendingMessage.dir/src/nowa.cpp.o: ../src/nowa.cpp \
 
 /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/ext/numeric_traits.h:
 
+/usr/local/Cellar/gcc/11.2.0_3/include/c++/11/array:
+
 /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/stl_iterator_base_funcs.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_uintptr_t.h:
@@ -1247,9 +1281,13 @@ CMakeFiles/SendingMessage.dir/src/nowa.cpp.o: ../src/nowa.cpp \
 
 /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/functexcept.h:
 
+/usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/unique_ptr.h:
+
 /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/cctype:
 
 /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/cerrno:
+
+/usr/local/Cellar/gcc/11.2.0_3/include/c++/11/utility:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/libkern/i386/_OSByteOrder.h:
 
@@ -1333,11 +1371,17 @@ CMakeFiles/SendingMessage.dir/src/nowa.cpp.o: ../src/nowa.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_ssize_t.h:
 
+/usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/parse_numbers.h:
+
 /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/charconv.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/stdio.h:
 
+/usr/local/Cellar/gcc/11.2.0_3/include/c++/11/chrono:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_ct_rune_t.h:
+
+/usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/uses_allocator.h:
 
 /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/basic_ios.h:
 
@@ -1351,7 +1395,11 @@ CMakeFiles/SendingMessage.dir/src/nowa.cpp.o: ../src/nowa.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/malloc/_malloc.h:
 
+/usr/local/Cellar/gcc/11.2.0_3/include/c++/11/limits:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int16_t.h:
+
+/usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/stl_relops.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h:
 
@@ -1412,6 +1460,8 @@ CMakeFiles/SendingMessage.dir/src/nowa.cpp.o: ../src/nowa.cpp \
 /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/ios_base.h:
 
 /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/cwchar:
+
+/usr/local/Cellar/gcc/11.2.0_3/include/c++/11/ctime:
 
 /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/char_traits.h:
 

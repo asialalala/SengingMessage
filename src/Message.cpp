@@ -3,11 +3,13 @@
 #include <cstdlib>
 #include <string>
 #include "DNode.hh"
+#include "ListPriorityQueue.hh"
+
 
 /*!
 It writes MessageText to file in form which is possible to reread
 */
-void Message::SendingToFile()
+void Message::SendingToFileWithKey()
 {
   Elem tem;
   std::ofstream File("filename.txt");
@@ -21,16 +23,36 @@ void Message::SendingToFile()
         File << tem.getKey();
         File << "\n";
     }
-    File << '\n';
 
   File.close();
-  //std::cout << "Oprozniono";
+
 }
+
+/*!
+It writes MessageText to file, onlu words
+*/
+void Message::SendingToFile()
+{
+  std::ofstream File("filename.txt");
+  DNode<Elem> * tem = MessageText->header;
+  // Write to the file
+    while (tem != MessageText->trailer)
+    {
+        File << tem->elem.getWord();
+        File << " ";
+        tem = tem->next;
+    }
+   // File << '\n';
+
+  File.close();
+}
+
+
 
 /*!
 It reads file which are written in special form whith keys
 */
-void Message::ReadingFromFile()
+void Message::ReadingFromFileWithKey()
 {
 std::string word;
 int key;
@@ -49,11 +71,10 @@ while (getline (ReadFile, word, ' ')) { //set word
   Elem * newElem = new Elem(key,word); // add new element 
   MessageText->addFront(* newElem);
 
-  std::cout << std::endl << MessageText->front().getWord() << std::endl;
+  //std::cout << std::endl << MessageText->front().getWord() << std::endl;
   newElem = NULL;
   delete newElem;
 }
-
 
 ReadFile.close();
 }
@@ -67,13 +88,14 @@ It realisates sending message to file :
 void Message::sent()
 {
   Random();
-  SendingToFile();
+  SendingToFileWithKey(); 
 }
 
 // now it is unneccessary
 void Message::read()
 {
-  ReadingFromFile();
+  ReadingFromFileWithKey();
+  SendingToFile(); // show the message the user
 }
 
 /*!
@@ -89,27 +111,27 @@ void Message::write()
         exit(1); 
     }
 
-  std::cout << "pobrane" << std::endl;
   std::string word;
   int key = 1; 
+
   while (File.good()) { 
   getline (File, word, ' ' ); //set word
   if(word == "\n")
     break;
   Elem * newElem = new Elem(key,word); // add new element 
   MessageText->addFront(* newElem);
-  //std::cout << word;
-  std::cout <<  MessageText->front().getWord();
   key++;
   newElem = NULL;
   delete newElem;
   }
+  
   File.close();
   Number = key - 1;
-  std::cout << Number;
 }
 
-
+/*!
+looking form back and additon last elemonts on from by random
+*/
 void Message::Random()
 {
   if (MessageText->isEmpty())
@@ -128,4 +150,23 @@ void Message::Random()
   }
 }
 
+/*!
+It sorts the packages with words.
+*/
+void Message::sort()
+{
+  ListPriorityQueue<Elem> Priority; 
+  Elem tem;
 
+  while (!MessageText->isEmpty())
+  {
+    Priority.insert(MessageText->removeFront());
+  }
+  
+  while (!Priority.isEmpty())
+  {
+    tem = Priority.removeMin();
+    MessageText->addBack(tem);
+  }
+  SendingToFile(); // show the message the user
+}

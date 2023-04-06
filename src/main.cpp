@@ -4,39 +4,28 @@
 #include "DNode.hh"
 #include "Elem.hh"
 #include "Message.hh"
+#include <chrono>
+#include <thread>
 
 //#include "ReadingFromFile.cpp"
 void ReadingFromFile();
 
 int main(){
     std::cout << "Początek programu!!\n";
-  /*Elem a(1,"Witam");
-    Elem b(2, "serdecznie");
-    Elem c(3, "w");
-    Elem d(4, "programie!");
-
-    DLinkedList<Elem> list;
-    list.addFront(a);
-    list.addFront(b);
-    list.addFront(c);
-    list.addFront(d);
-*/
-
-// SORTOWANIE
-    /* std::string info;
-    for(int i=0;i<4;i++) {
-        info = list.removeMin().getWord();
-        std::cout << info;
-       }*/
- 
 
     Message Text;
 
-    
-    
     Text.write();
+    std::this_thread::sleep_for(std::chrono::nanoseconds(4000000000));
     Text.sent();
+     std::this_thread::sleep_for(std::chrono::nanoseconds(4000000000));
     Text.read();
+
+    std::string a = " ";
+    std::cout << "Jesli chcesz posortowac wiadomość naciśnij 1 i enter.\n";
+    std::cin >> a;
+    if(a == "1")
+     Text.sort();
     
     
 }

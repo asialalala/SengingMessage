@@ -208,4 +208,6 @@ CMakeFiles/SendingMessage.dir/src/Message.cpp.o: \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/codecvt.h \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/x86_64-apple-darwin20/bits/basic_file.h \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/x86_64-apple-darwin20/bits/c++io.h \
- /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/fstream.tcc
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/fstream.tcc \
+ /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/inc/ListPriorityQueue.hh \
+ /Users/asialalala/Programy/C++/Structures/Project1/SendingMessage/inc/QueueEmpty.hh

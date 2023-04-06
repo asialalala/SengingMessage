@@ -8,7 +8,8 @@ private:
     DLinkedList<Elem> * MessageText;
     int Number; // number of words in MessageText
 
-    void ReadingFromFile();
+    void ReadingFromFileWithKey();
+    void SendingToFileWithKey();
     void SendingToFile();
     void Random();
 
@@ -18,6 +19,6 @@ public:
   void sent();
   void read();
   void write();
-
+  void sort();
 };
 
