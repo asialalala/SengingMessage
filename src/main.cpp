@@ -8,7 +8,6 @@
 #include <thread>
 
 //#include "ReadingFromFile.cpp"
-void ReadingFromFile();
 
 int main(){
     std::cout << "Początek programu!!\n";
